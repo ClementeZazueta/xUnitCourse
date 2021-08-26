@@ -105,3 +105,4 @@ C:\Users\carlos.zazueta\source\repos\Calculations\Calculations.Tests\obj\Debug\n
 C:\Users\carlos.zazueta\source\repos\Calculations\Calculations.Tests\obj\Debug\net5.0\ref\Calculations.Tests.dll
 C:\Users\carlos.zazueta\source\repos\Calculations\Calculations.Tests\obj\Debug\net5.0\Calculations.Tests.pdb
 C:\Users\carlos.zazueta\source\repos\Calculations\Calculations.Tests\obj\Debug\net5.0\Calculations.Tests.genruntimeconfig.cache
+C:\Users\carlos.zazueta\source\repos\Calculations\Calculations.Tests\bin\Debug\net5.0\IsOddOrEvenTestData.txt

@@ -72,6 +72,28 @@ namespace Calculations.Tests
             _testOutputHelper.WriteLine("End");
         }
 
+        //[Fact]
+        //public void IsOdd_GivenOddValue_ReturnsTrue()
+        //{
+        //    var calc = _calculationsFixture.Calc;
+        //    var result = calc.IsOdd(1);
+
+        //    Assert.True(result);
+        //}
+
+        // For test that uses the same method and expect differetn results
+        // better use Theory. Theory indicates that a test will be repeated n number if times
+        [Theory]
+        //[MemberData(nameof(TestDataShare.IsOddOrEvenParameterValues), MemberType = typeof(TestDataShare))]
+        [IsOddOrEvenData]
+        [Trait("Category", "Odd and Even")]
+        public void IsOdd_TestOddAndEven(int value, bool expected)
+        {
+            var calc = _calculationsFixture.Calc;
+            var result = calc.IsOdd(value);
+            Assert.Equal(expected, result);
+        }
+
         public void Dispose()
         {
             _memoryStream.Close();
